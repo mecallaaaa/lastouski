@@ -1,2 +1,2 @@
 # lastouski
-Chat GPT said that could be easier to search for word through a .csv from the GitHub. So I obey.
+Chat GPT said that it could be easier to search for words in a publicly available .csv from GitHub. So I obey.
