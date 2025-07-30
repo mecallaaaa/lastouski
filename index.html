@@ -5,158 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Слоўнік Ластоўскага (1924)</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #fdfdfd;
-      color: #222;
-    }
-    header {
-      background: #272727;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5rem;
-      background: #f4f4f4;
-      padding: 0.5rem;
-    }
-    nav a {
-      text-decoration: none;
-      padding: 0.3rem 0.6rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      color: #333;
-      background: #fff;
-    }
-    nav a:hover {
-      background: #eaeaea;
-    }
-    .page {
-      display: none;
-      padding: 1rem;
-    }
-    .page.active {
-      display: block;
-    }
-    .entry {
-      margin-bottom: 1rem;
-    }
-    .headword {
-      font-weight: bold;
-    }
-    .modern {
-      font-weight: normal;
-      font-size: 1rem;
-      color: #555;
-    }
-    .definition {
-      margin-left: 1rem;
-    }
-    #searchBox {
-      display: block;
-      width: 80%;
-      max-width: 400px;
-      margin: 1rem auto;
-      padding: 0.5rem;
-      font-size: 1rem;
-    }
-    em {
-      font-style: italic;
-    }
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fdfdfd; color: #222; }
+    header { background: #272727; color: #fff; padding: 1rem; text-align: center; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; background: #f4f4f4; padding: 0.5rem; }
+    nav button { border: none; background: #fff; padding: 0.4rem 0.8rem; cursor: pointer; border-radius: 4px; }
+    nav button.active, nav button:hover { background: #ddd; }
+    #searchBox { display: block; width: 90%; max-width: 400px; margin: 1rem auto; padding: 0.6rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    main { padding: 1rem; max-width: 800px; margin: auto; }
+    .entry { margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 0.5rem; }
+    .headword { font-weight: bold; }
+    .modern { font-weight: normal; font-size: 1rem; color: #555; margin-left: 0.3rem; }
+    .definition { margin-left: 1rem; }
+    em { font-style: italic; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Падручны расійска-крыўскі (беларускі) слоўнік, 1924</h1>
-  </header>
-
+  <header><h1>Падручны расійска-крыўскі (беларускі) слоўнік, 1924</h1></header>
   <nav id="letterNav"></nav>
   <input type="text" id="searchBox" placeholder="Пошук…" />
-  <main id="pagesContainer"></main>
-
+  <main id="entries"></main>
   <script>
-    const data = {
-      "А": [
-        { headword: "АБАКА", definition: "<em>бел.</em> адзнака, абярэз.", modern: "абака" },
-        { headword: "АБАРОНА", definition: "<em>бел.</em> зашчытай, ахова.", modern: "абарона" }
-      ],
-      "Б": [
-        { headword: "БАГАЦЦЕ", definition: "<em>бел.</em> багацце, маёмасьць.", modern: "багацце" },
-        { headword: "БЛАГАВОННОСТЬ", definition: "<em>вохнасьць, вохны, вотхнеўны.</em> Вохны пах дымоў цім‘янных.", modern: "благавоннасць" }
-      ]
-    };
-
-    const pagesContainer = document.getElementById("pagesContainer");
-    const letterNav = document.getElementById("letterNav");
-
-    Object.keys(data).forEach(letter => {
-      const link = document.createElement("a");
-      link.href = "#" + letter;
-      link.textContent = letter;
-      link.onclick = () => showPage(letter);
-      letterNav.appendChild(link);
-
-      const page = document.createElement("section");
-      page.classList.add("page");
-      page.id = "page-" + letter;
-      data[letter].forEach(entry => {
-        const modernSuffix = entry.modern && entry.modern.toLowerCase() !== entry.headword.toLowerCase()
-          ? ` <span class="modern">(${entry.modern.toLowerCase()})</span>`
-          : "";
-        const div = document.createElement("div");
-        div.className = "entry";
-        div.innerHTML = 
-          `<div class=\"headword\">${entry.headword}${modernSuffix}</div>` +
-          `<div class=\"definition\">${entry.definition}</div>`;
-        page.appendChild(div);
-      });
-      pagesContainer.appendChild(page);
+    const letters = ['А','Б','В','Г','Д','Е','Ж'];
+    const fileMap = { А:'A.json', Б:'B.json', В:'V.json', Г:'G.json', Д:'D.json', Е:'E.json', Ж:'Zh.json' };
+    const nav = document.getElementById('letterNav');
+    const searchBox = document.getElementById('searchBox');
+    const entriesEl = document.getElementById('entries');
+    let currentEntries = [];
+    
+    letters.forEach(letter => {
+      const btn = document.createElement('button');
+      btn.textContent = letter;
+      btn.onclick = () => loadLetter(letter);
+      nav.appendChild(btn);
     });
 
-    function showPage(letter) {
-      document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
-      document.getElementById("page-" + letter).classList.add("active");
+    function loadLetter(letter) {
+      nav.querySelectorAll('button').forEach(b=>b.classList.toggle('active', b.textContent===letter));
+      searchBox.value='';
+      fetch(fileMap[letter])
+        .then(res=>res.json())
+        .then(data=>{
+          currentEntries = data;
+          renderEntries(data);
+        })
+        .catch(()=>{ entriesEl.innerHTML = `<p>Не ўдалося загрузіць дадзеныя для літары ${letter}.</p>`; });
     }
 
-    document.getElementById("searchBox").addEventListener("input", function () {
-      const query = this.value.toLowerCase();
-      document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
-      const resultPage = document.createElement("section");
-      resultPage.className = "page active";
-      resultPage.innerHTML = "";
-      for (const letter in data) {
-        data[letter].forEach(entry => {
-          const defText = entry.definition.replace(/<[^>]*>/g, "");
-          if (
-            entry.headword.toLowerCase().includes(query) ||
-            defText.toLowerCase().includes(query) ||
-            (entry.modern && entry.modern.toLowerCase().includes(query))
-          ) {
-            const modernSuffix = entry.modern && entry.modern.toLowerCase() !== entry.headword.toLowerCase()
-              ? ` <span class="modern">(${entry.modern.toLowerCase()})</span>`
-              : "";
-            const div = document.createElement("div");
-            div.className = "entry";
-            div.innerHTML = 
-              `<div class=\"headword\">${entry.headword}${modernSuffix}</div>` +
-              `<div class=\"definition\">${entry.definition}</div>`;
-            resultPage.appendChild(div);
-          }
-        });
-      }
-      pagesContainer.innerHTML = "";
-      pagesContainer.appendChild(resultPage);
+    function renderEntries(list) {
+      entriesEl.innerHTML='';
+      if(list.length===0){ entriesEl.innerHTML='<p>Няма запісаў.</p>'; return; }
+      list.forEach(e=>{
+        const div = document.createElement('div'); div.className='entry';
+        let head = document.createElement('span'); head.className='headword'; head.textContent=e.headword;
+        if(e.modern && e.modern.toLowerCase()!==e.headword.toLowerCase()){
+          const mod = document.createElement('span'); mod.className='modern'; mod.textContent=`(${e.modern.toLowerCase()})`;
+          head.appendChild(mod);
+        }
+        const def = document.createElement('div'); def.className='definition'; def.innerHTML=e.definition;
+        div.appendChild(head); div.appendChild(def);
+        entriesEl.appendChild(div);
+      });
+    }
+
+    searchBox.addEventListener('input', ()=>{
+      const q=searchBox.value.toLowerCase();
+      if(!q) return renderEntries(currentEntries);
+      const filtered=currentEntries.filter(e=>
+        e.headword.toLowerCase().includes(q) ||
+        (e.modern && e.modern.toLowerCase().includes(q)) ||
+        e.definition.toLowerCase().replace(/<[^>]*>/g,'').includes(q)
+      );
+      renderEntries(filtered);
     });
 
-    // show default first page
-    showPage("А");
+    // Initialize
+    loadLetter('А');
   </script>
 </body>
 </html>
