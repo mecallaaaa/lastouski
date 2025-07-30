@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+<meta charset="utf-8">
+<title>Letter Ц - Lastouski Dictionary</title>
+<script src="search.js"></script>
+<style>
+body { font-family: sans-serif; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a></nav>
+<h1>Letter Ц</h1>
+<div>
+<input type="text" id="search" placeholder="Search..." oninput="search()">
+<div id="results"></div>
+</div>
+<ul><li><strong>ЦАПАЕТСЯ</strong> — чапаецца, ківаецца.</li>
+<li><strong>ЦАРАПАТЬ</strong> — што, чым; шаркаць, дзерці, дзёрстаць.</li>
+<li><strong>ЦАРАПИНА</strong> — дзёрска, дзярсно.</li>
+<li><strong>ЦАРАПАТЬСЯ</strong> — падобна мышы, скрабстацца, скрабатацца, дзёрстацца.</li>
+<li><strong>ЦАРИНА</strong> — ж. выган.</li>
+<li><strong>ЦАРЬ</strong> — м. цар, царыца, царэвіч, царэўна.</li>
+<li><strong>ЦАТА</strong> — цэкінка, цэкін.</li>
+<li><strong>ЦВЕТ</strong> — м. квет, кветка, квіце, кветны, квяцісты; краска, красуе.</li>
+<li><strong>ЦВЕТНОЙ</strong> — барвісты, каляровы.</li>
+<li><strong>ЦЕЙХАУЗ</strong> — м. нямецк. склад.</li>
+<li><strong>ЦЕНТР</strong> — м. лац. асяродак, асяродны.</li>
+<li><strong>ЦЕНТРОБЕЖНЫЙ</strong> — адасяродны.</li>
+<li><strong>ЦЕНТРОСТРЕМИТЕЛЬНЫЙ</strong> — дасяродны.</li>
+<li><strong>ЦЕНТРАЛИЗАЦИЯ</strong> — сусяроджаньне.</li>
+<li><strong>ЦЕНТРАЛЬНЫЙ</strong> — сусяродны.</li>
+<li><strong>ЦЕРЕМОНИЯ</strong> — ж. франц. чцівасьць, чцівіцца, чціўнасьць—лівасьць.</li>
+<li><strong>ЦЕРЕМОНИАЛЬНЫЙ</strong> — чціўны.</li>
+<li><strong>ЦЕРКОВЬ</strong> — царква, царкоўны.</li>
+<li><strong>ЦЕРТИФИКАТ</strong> — м. лац. пасьведчаньне.</li>
+<li><strong>ЦЕХ</strong> — м. ням. брацтва рамесьнікаў.</li>
+<li><strong>ЦИВИЛИЗАЦИЯ</strong> — лац. грамадзянскасьць.</li>
+<li><strong>ЦИКЛ</strong> — грэцк. круг.</li>
+<li><strong>ЦИЛИНДР</strong> — м. грэцк. кругляч, кругляны.</li>
+<li><strong>ЦИНК</strong> — м. коў, цына (Sn). Па расійску цинком называюць (Zn), па нашаму сьвінец и свинцом (Pb.), тое, што па нашаму называецца волава, а цыну яны завуць „олово“.</li>
+<li><strong>ЦИСТЕРНА</strong> — лац. бодня.</li>
+<li><strong>ЦИТАДЕЛЬ</strong> — крэпасьць.</li>
+<li><strong>ЦИТИРОВАТЬ</strong> — каго, ням. намяняць, прыводзіць.</li>
+<li><strong>ЦИТАТА</strong> — зьменка.</li>
+<li><strong>ЦОКОЛЬ</strong> — ням. падсьценак.</li>
+<li><strong>ЦЫНГА</strong> — хвароба ад нястачы корму або благога корму; шкорбут.</li>
+<li><strong>ЦЫРЮЛЬНИК</strong> — галяр; пастрыгач.</li>
+<li><strong>ЦЫРЮЛЬНЯ</strong> — пастрыгальня.</li>
+<li><strong>ЦЕЛЕБНЫЙ</strong> — гаючы.</li>
+<li><strong>ЦЕЛИНА</strong> — зямля ніколі не абрабляная; шчырына.</li>
+<li><strong>ЦЕЛЬ</strong> — не пачатае; шчыр.</li>
+<li><strong>ЦЕЛЕБНИК</strong> — гойнік.</li>
+<li><strong>ЦЕЛИТЕЛЬ</strong> — гойбіт.</li>
+<li><strong>ЦЕЛОВАТЬ</strong> — цалаваць, бусяць, бусі, буські.</li>
+<li><strong>ЦЕЛОМУДРЕННЫЙ</strong> — шчырны, шчырка.</li>
+<li><strong>ЦЕЛЬ</strong> — цэль, мэта.</li>
+<li><strong>ЦЕНА</strong> — цана, цаніць, цэнны.</li>
+<li><strong>ЦЕПЛЯТЬ</strong> — што, чапляць, чэпкі, чапло.</li>
+<li><strong>ЦЕПЬ</strong> — ланцуг, ланцужок, ланцужнік; ратуг, ратугі, ратужжо.</li>
+<li><strong>ЦЕПОЧКА</strong> — ланцужок, ратужок.</li>
+<li><strong>ЦЕПЕНЕТЬ</strong> — дубець, тужэць, калавацець.</li></ul>
+</body>
+</html>
