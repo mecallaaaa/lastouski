@@ -13,7 +13,8 @@
   },
   {
     "headword": "АБЕРАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац. фіз.</i> разсыпнасьць ламаных праменяў сьвятла <b>абэр</b><i>а</i><b>цыя, зл</b><i>у</i><b>да, ул</b><i>у</i><b>да зроку.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац. фіз.</i> разсыпнасьць ламаных праменяў сьвятла <b>абэр</b><i>а</i><b>цыя, зл</b><i>у</i><b>да, ул</b><i>у</i><b>да зроку.</b>",
+    "modern": "АБЕРАЦИЯ"
   },
   {
     "headword": "АБОРДАЖ",
@@ -25,7 +26,8 @@
   },
   {
     "headword": "АБРЕВІАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> пісьмо пад цітламі, <b>скар</b><i>о</i><b>т.</b> <i>Першыя друкі т. зв. інкунабулы друкаваліся са <span style=\"letter-spacing: .15em;\">скаротамі</span>.</i>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> пісьмо пад цітламі, <b>скар</b><i>о</i><b>т.</b> <i>Першыя друкі т. зв. інкунабулы друкаваліся са <span style=\"letter-spacing: .15em;\">скаротамі</span>.</i>",
+    "modern": "АБРЕВИАЦИЯ"
   },
   {
     "headword": "АБРИКОС",
@@ -57,7 +59,8 @@
   },
   {
     "headword": "АВДІЕНЦІЯ, паслух",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span><i>а</i><b>ньне, прыйм</b><i>о</i><b>.</b> <i>Былі ў яго на <span style=\"letter-spacing: .15em;\">прыйме</span>.</i>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span><i>а</i><b>ньне, прыйм</b><i>о</i><b>.</b> <i>Былі ў яго на <span style=\"letter-spacing: .15em;\">прыйме</span>.</i>",
+    "modern": "АВДИЕНЦИЯ, паслух"
   },
   {
     "headword": "АВРОРА",
@@ -65,11 +68,13 @@
   },
   {
     "headword": "АВТОБІОГРАФІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж.</i> напісанае самым апісаньне свайго жыцьця; <b>аўтобіагр</b><i>а</i><b>фія, самар</b><i>ы</i><b>с.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж.</i> напісанае самым апісаньне свайго жыцьця; <b>аўтобіагр</b><i>а</i><b>фія, самар</b><i>ы</i><b>с.</b>",
+    "modern": "АВТОБИОГРАФИЯ"
   },
   {
     "headword": "АВТОКРАТІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> <b>самаўл</b><i>а</i><b>сьце, аўтакр</b><i>а</i><b>ція.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> <b>самаўл</b><i>а</i><b>сьце, аўтакр</b><i>а</i><b>ція.</b>",
+    "modern": "АВТОКРАТИЯ"
   },
   {
     "headword": "АВТОКРАТ,",
@@ -77,7 +82,8 @@
   },
   {
     "headword": "АВТОНОМІЯ,",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> самаўрадаванньне, кіраваньне, самім сваімі справамі; <b>аўтан</b><i>о</i><b>мія, самар</b><i>а</i><b>дзтва.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> самаўрадаванньне, кіраваньне, самім сваімі справамі; <b>аўтан</b><i>о</i><b>мія, самар</b><i>а</i><b>дзтва.</b>",
+    "modern": "АВТОНОМИЯ,"
   },
   {
     "headword": "АВТОР",
@@ -93,7 +99,8 @@
   },
   {
     "headword": "АГИТАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> намова, падбураньне, падбіваньне, каптаваньне; <b>агіт</b><i>а</i><b>ція, агіт</b><i>а</i><b>тар, агітав</b><i>а</i><b>ць.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> намова, падбураньне, падбіваньне, каптаваньне; <b>агіт</b><i>а</i><b>ція, агіт</b><i>а</i><b>тар, агітав</b><i>а</i><b>ць.</b>",
+    "modern": "АГИТАЦИЯ"
   },
   {
     "headword": "АГНЕЦ",
@@ -101,7 +108,8 @@
   },
   {
     "headword": "АГОНІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> змаганьне жыцьця са сьмерцю; <b>кан</b><i>а</i><b>ньне, непрыт</b><i>о</i><b>мнасьць</b> паміраючага. <i><span style=\"letter-spacing: .15em;\">Канае</span>, а за зельле хапае. Каб табе такое <span style=\"letter-spacing: .15em;\">кананьне</span>, як гэта праўда. Перад <span style=\"letter-spacing: .15em;\">кананьнем</span> прызнаўся.</i>\n<span><span class=\"pagenum\" id=\"16\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/16\"></span></span>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> змаганьне жыцьця са сьмерцю; <b>кан</b><i>а</i><b>ньне, непрыт</b><i>о</i><b>мнасьць</b> паміраючага. <i><span style=\"letter-spacing: .15em;\">Канае</span>, а за зельле хапае. Каб табе такое <span style=\"letter-spacing: .15em;\">кананьне</span>, як гэта праўда. Перад <span style=\"letter-spacing: .15em;\">кананьнем</span> прызнаўся.</i>\n<span><span class=\"pagenum\" id=\"16\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/16\"></span></span>",
+    "modern": "АГОНИЯ"
   },
   {
     "headword": "АГРАМАНТЫ",
@@ -113,7 +121,8 @@
   },
   {
     "headword": "АГРОНОМІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука земляробства, ратайства; <b>агран</b><i>о</i><b>мія, поляв</b><i>е</i><b>даньне.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука земляробства, ратайства; <b>агран</b><i>о</i><b>мія, поляв</b><i>е</i><b>даньне.</b>",
+    "modern": "АГРОНОМИЯ"
   },
   {
     "headword": "АГРИКУЛЬТУРА, земляр",
@@ -145,7 +154,8 @@
   },
   {
     "headword": "АЖІО",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ср. неск. тарг. італьян.</i> пераплата, наддача пры абмене аднэй манэты на другую; <b>л</b><i>а</i><b>жа</b> <span style=\"letter-spacing: .15em;\">лажніца</span>, <span style=\"letter-spacing: .15em;\">лажня</span>, крама дзе мяняюць грошы; <span style=\"letter-spacing: .15em;\">лаж<i>о</i>вае</span>, плата за абмен грошы: <span style=\"letter-spacing: .15em;\">л<i>а</i>жнік</span>, мяняльнік грошы: <span style=\"letter-spacing: .15em;\">лажб<i>е</i>рка</span>, купчаньне грашамі."
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ср. неск. тарг. італьян.</i> пераплата, наддача пры абмене аднэй манэты на другую; <b>л</b><i>а</i><b>жа</b> <span style=\"letter-spacing: .15em;\">лажніца</span>, <span style=\"letter-spacing: .15em;\">лажня</span>, крама дзе мяняюць грошы; <span style=\"letter-spacing: .15em;\">лаж<i>о</i>вае</span>, плата за абмен грошы: <span style=\"letter-spacing: .15em;\">л<i>а</i>жнік</span>, мяняльнік грошы: <span style=\"letter-spacing: .15em;\">лажб<i>е</i>рка</span>, купчаньне грашамі.",
+    "modern": "АЖИО"
   },
   {
     "headword": "АЖУР",
@@ -173,11 +183,13 @@
   },
   {
     "headword": "АКАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж,</i> названьне дрэва: <i>Acacia Robinia i Caragana</i>, <b>гар</b><i>о</i><b>шнік. гар</b><i>о</i><b>шкавае дрэва, ак</b><i>а</i><b>ція.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж,</i> названьне дрэва: <i>Acacia Robinia i Caragana</i>, <b>гар</b><i>о</i><b>шнік. гар</b><i>о</i><b>шкавае дрэва, ак</b><i>а</i><b>ція.</b>",
+    "modern": "АКАЦИЯ"
   },
   {
     "headword": "АКАѲИСТ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк.</i> царкоўная хвалебная песьня; акафіст; ў каталікоў — літанія; <b>хваласьп</b><i>е</i><b>ў.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк.</i> царкоўная хвалебная песьня; акафіст; ў каталікоў — літанія; <b>хваласьп</b><i>е</i><b>ў.</b>",
+    "modern": "АКАФИСТ"
   },
   {
     "headword": "АКИ",
@@ -221,7 +233,8 @@
   },
   {
     "headword": "АКЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. фр.</i> часць, дзялянка ў гандлі, ў прамысловасьці, ў таварыстве; <i>а</i><b>кція, б</b><i>о</i><b>нда.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. фр.</i> часць, дзялянка ў гандлі, ў прамысловасьці, ў таварыстве; <i>а</i><b>кція, б</b><i>о</i><b>нда.</b>",
+    "modern": "АКЦИЯ"
   },
   {
     "headword": "АКЦЕНТ",
@@ -237,7 +250,8 @@
   },
   {
     "headword": "АЛЛЕГОРІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк.</i> высказ, абраз, рэзьба, у пераносным значэньні; <b>аляг</b><i>о</i><b>рыка, перан</b><i>о</i><b>сьня.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк.</i> высказ, абраз, рэзьба, у пераносным значэньні; <b>аляг</b><i>о</i><b>рыка, перан</b><i>о</i><b>сьня.</b>",
+    "modern": "АЛЛЕГОРИЯ"
   },
   {
     "headword": "АЛЛЕЯ",
@@ -281,11 +295,13 @@
   },
   {
     "headword": "АЛЮВІАЛЬНЫЙ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>геалог.</i>: прамыты вадой, <b>намыўн</b><i>ы</i><b>, нат</b><i>о</i><b>чны.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>геалог.</i>: прамыты вадой, <b>намыўн</b><i>ы</i><b>, нат</b><i>о</i><b>чны.</b>",
+    "modern": "АЛЮВИАЛЬНЫЙ"
   },
   {
     "headword": "АЛЮМИНІЙ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. хім.</i> мэталь дабываны з гліны, аснова гліны, так сама як аснова жалеза іржа: <b>алюм</b><i>і</i><b>н, глін</b><i>е</i><b>ц.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. хім.</i> мэталь дабываны з гліны, аснова гліны, так сама як аснова жалеза іржа: <b>алюм</b><i>і</i><b>н, глін</b><i>е</i><b>ц.</b>",
+    "modern": "АЛЮМИНИЙ"
   },
   {
     "headword": "АЛЯПОВАТЫЙ, нехлам",
@@ -305,7 +321,8 @@
   },
   {
     "headword": "АМПУТАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> адрэзаньне чэляса цела, <b>адн</b><i>я</i><b>цьце</b>. <i>Руку аднялі.</i>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> адрэзаньне чэляса цела, <b>адн</b><i>я</i><b>цьце</b>. <i>Руку аднялі.</i>",
+    "modern": "АМПУТАЦИЯ"
   },
   {
     "headword": "АМУЛЕТ",
@@ -321,7 +338,8 @@
   },
   {
     "headword": "АНАѲЕМА",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> царкоўнае пракляцьце, адлучэньне ад царквы; вылучэньне з грамады веручых; <b>пракл</b><i>ё</i><b>н, ан</b><i>а</i><b>тэма.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> царкоўнае пракляцьце, адлучэньне ад царквы; вылучэньне з грамады веручых; <b>пракл</b><i>ё</i><b>н, ан</b><i>а</i><b>тэма.</b>",
+    "modern": "АНАФЕМА"
   },
   {
     "headword": "АНГАЖИРОВАТЬ",
@@ -341,7 +359,8 @@
   },
   {
     "headword": "АНЕМІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк, мэд.</i> <b>недакр</b><i>о</i><b>віца.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк, мэд.</i> <b>недакр</b><i>о</i><b>віца.</b>",
+    "modern": "АНЕМИЯ"
   },
   {
     "headword": "АНИС",
@@ -349,7 +368,8 @@
   },
   {
     "headword": "АНОМАЛІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> не падобнасьць да звычайнага, адступленьне ў якім небудзь явішчы прыроды; <b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: анам'''''а'''''лія,-\">анам</span></b><i>а</i><b>лія, зб</b><i>о</i><b>чаньне.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> не падобнасьць да звычайнага, адступленьне ў якім небудзь явішчы прыроды; <b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: анам'''''а'''''лія,-\">анам</span></b><i>а</i><b>лія, зб</b><i>о</i><b>чаньне.</b>",
+    "modern": "АНОМАЛИЯ"
   },
   {
     "headword": "АНОНИМ",
@@ -373,7 +393,8 @@
   },
   {
     "headword": "АНТИПАТІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> <b>н</b><i>е</i><b>хаць, адр</b><i>а</i><b>за.</b> <i>Я чую да гэтага чалавека нейкую ўнутраную нехаць. Адразы сваей скрываць не магу.</i>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. лац.</i> <b>н</b><i>е</i><b>хаць, адр</b><i>а</i><b>за.</b> <i>Я чую да гэтага чалавека нейкую ўнутраную нехаць. Адразы сваей скрываць не магу.</i>",
+    "modern": "АНТИПАТИЯ"
   },
   {
     "headword": "АНТОНОВ ОГОНЬ",
@@ -389,7 +410,8 @@
   },
   {
     "headword": "АНТРОПОЛОГІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, навука аб чалавеку, <b>чалавекав</b><i>е</i><b>даньне.</b>\n<span><span class=\"pagenum\" id=\"21\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/21\"></span></span>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, навука аб чалавеку, <b>чалавекав</b><i>е</i><b>даньне.</b>\n<span><span class=\"pagenum\" id=\"21\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/21\"></span></span>",
+    "modern": "АНТРОПОЛОГИЯ"
   },
   {
     "headword": "АНТРОПОМОРФИЗМ",
@@ -405,7 +427,8 @@
   },
   {
     "headword": "АПАТІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, <b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: роунадушнасьць\">роўнад</span></b><i>у</i><b>шнасьць, <span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: безцікаунасьць\">безцік</span></b><i>а</i><b>ўнасьць.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, <b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: роунадушнасьць\">роўнад</span></b><i>у</i><b>шнасьць, <span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: безцікаунасьць\">безцік</span></b><i>а</i><b>ўнасьць.</b>",
+    "modern": "АПАТИЯ"
   },
   {
     "headword": "АПЕЛЬ",
@@ -429,15 +452,18 @@
   },
   {
     "headword": "АПОПЛЕКСІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк</i>, хвароба; <b>пал</b><i>я</i><b>руш.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. грэцк</i>, хвароба; <b>пал</b><i>я</i><b>руш.</b>",
+    "modern": "АПОПЛЕКСИЯ"
   },
   {
     "headword": "А ПО СЕМУ, адлі.",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> Адлі я і зрабіў так."
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> Адлі я і зрабіў так.",
+    "modern": "А ПО СЕМУ, адли."
   },
   {
     "headword": "АПРѢЛЬ,",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> чацьверты месяц у гаду; <b>красав</b><i>і</i><b>к.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> чацьверты месяц у гаду; <b>красав</b><i>і</i><b>к.</b>",
+    "modern": "АПРЕЛЬ,"
   },
   {
     "headword": "АПТЕКА",
@@ -473,7 +499,8 @@
   },
   {
     "headword": "АРИСТОКРАТІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, дзяржаўны лад, дзе вышэйшая ўлада ў руках паноў, магутаў, вяльможаў, асобнага высшага стану, што перадае свае прывілеі ў патомнасьць, па роду. Грашавая <b>арыстакр</b><i>а</i><b>цыя,</b> багачы, сьвежа збагацеўшыя купцы. Арыстакрацыя духовая, сабраньне людзей вучоных разумных, асьвечаных."
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i>, дзяржаўны лад, дзе вышэйшая ўлада ў руках паноў, магутаў, вяльможаў, асобнага высшага стану, што перадае свае прывілеі ў патомнасьць, па роду. Грашавая <b>арыстакр</b><i>а</i><b>цыя,</b> багачы, сьвежа збагацеўшыя купцы. Арыстакрацыя духовая, сабраньне людзей вучоных разумных, асьвечаных.",
+    "modern": "АРИСТОКРАТИЯ"
   },
   {
     "headword": "АРИМАН",
@@ -481,11 +508,13 @@
   },
   {
     "headword": "АРИѲМЕТИКА",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука аб лічэньні; <b>арытм</b><i>э</i><b>тыка, арытмэт</b><i>ы</i><b>чны.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука аб лічэньні; <b>арытм</b><i>э</i><b>тыка, арытмэт</b><i>ы</i><b>чны.</b>",
+    "modern": "АРИФМЕТИКА"
   },
   {
     "headword": "АРІЕРГАРД",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. франц.</i> <b>паз</b><i>а</i><b>дны, паз</b><i>а</i><b>днік.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. франц.</i> <b>паз</b><i>а</i><b>дны, паз</b><i>а</i><b>днік.</b>",
+    "modern": "АРИЕРГАРД"
   },
   {
     "headword": "АРКА",
@@ -501,7 +530,8 @@
   },
   {
     "headword": "АРМІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> дзяржаўнае сухапутнае войска, пяхота і конніца; <b>армія, арм</b><i>е</i><b>йны, арм</b><i>е</i><b>яц, арм</b><i>е</i><b>йшчына.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> дзяржаўнае сухапутнае войска, пяхота і конніца; <b>армія, арм</b><i>е</i><b>йны, арм</b><i>е</i><b>яц, арм</b><i>е</i><b>йшчына.</b>",
+    "modern": "АРМИЯ"
   },
   {
     "headword": "АРМЯК",
@@ -529,7 +559,8 @@
   },
   {
     "headword": "АРТИЛЛЕРІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> цяжкая агнястрэльная зброя, не ручная: <b>гарм</b><i>а</i><b>та, гарм</b><i>а</i><b>тная служба, гарм</b><i>а</i><b>тнік, гарм</b><i>а</i><b>тніцкі.</b>\n<span><span class=\"pagenum\" id=\"24\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/24\"></span></span>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> цяжкая агнястрэльная зброя, не ручная: <b>гарм</b><i>а</i><b>та, гарм</b><i>а</i><b>тная служба, гарм</b><i>а</i><b>тнік, гарм</b><i>а</i><b>тніцкі.</b>\n<span><span class=\"pagenum\" id=\"24\" title=\"Старонка:Vacłaŭ Łastoŭski. Padručny rasijska-kryŭski (bełaruski) słoŭnik (1924).pdf/24\"></span></span>",
+    "modern": "АРТИЛЛЕРИЯ"
   },
   {
     "headword": "АРТИСТ",
@@ -541,7 +572,8 @@
   },
   {
     "headword": "АРХІ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>грэцк. пачат.</i> само па сабе ня ўжываецца, а перад другімі словамі, калі трэба падняць іх у найвышэйшую ступеню; <b>архі</b>біскуп, <span style=\"letter-spacing: .15em;\">архі</span>мандрыт, <span style=\"letter-spacing: .15em;\">архі</span>пастыр, <span style=\"letter-spacing: .15em;\">архі</span>справядлівец."
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>грэцк. пачат.</i> само па сабе ня ўжываецца, а перад другімі словамі, калі трэба падняць іх у найвышэйшую ступеню; <b>архі</b>біскуп, <span style=\"letter-spacing: .15em;\">архі</span>мандрыт, <span style=\"letter-spacing: .15em;\">архі</span>пастыр, <span style=\"letter-spacing: .15em;\">архі</span>справядлівец.",
+    "modern": "АРХИ"
   },
   {
     "headword": "АРХАНГЕЛ",
@@ -553,7 +585,8 @@
   },
   {
     "headword": "АССОЦІАЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> <b>зграм</b><i>а</i><b>джаньне, сабр</b><i>а</i><b>ньне, тав</b><i>а</i><b>рыства, с</b><i>у</i><b>вязь, зм</b><i>о</i><b>ва</b> дзеля якой колечы агульнай мэты."
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. франц.</i> <b>зграм</b><i>а</i><b>джаньне, сабр</b><i>а</i><b>ньне, тав</b><i>а</i><b>рыства, с</b><i>у</i><b>вязь, зм</b><i>о</i><b>ва</b> дзеля якой колечы агульнай мэты.",
+    "modern": "АССОЦИАЦИЯ"
   },
   {
     "headword": "АСПИД",
@@ -565,15 +598,18 @@
   },
   {
     "headword": "АСТРОНОМІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука аб небе, <b>з</b><i>о</i><b>рніцтва, астран</b><i>о</i><b>мія.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> навука аб небе, <b>з</b><i>о</i><b>рніцтва, астран</b><i>о</i><b>мія.</b>",
+    "modern": "АСТРОНОМИЯ"
   },
   {
     "headword": "АСТРОЛЯБІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> землямерны прыбор,\n<b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: вуглам'''''е'''''р,\">вуглам</span></b><i>е</i><b>р.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>ж. грэцк.</i> землямерны прыбор,\n<b><span style=\"border-bottom: 1px dotted green; cursor: help;\" title=\"Выпраўлена памылка: вуглам'''''е'''''р,\">вуглам</span></b><i>е</i><b>р.</b>",
+    "modern": "АСТРОЛЯБИЯ"
   },
   {
     "headword": "АТАКОВАНІЕ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>франц.</i> <b>нап</b><i>а</i><b>д, наступл</b><i>е</i><b>ньне.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>франц.</i> <b>нап</b><i>а</i><b>д, наступл</b><i>е</i><b>ньне.</b>",
+    "modern": "АТАКОВАНИЕ"
   },
   {
     "headword": "АТЕИЗМ",
@@ -581,7 +617,8 @@
   },
   {
     "headword": "АУДІЕНЦІЯ",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>лац.</i> <b>паслух</b><i>а</i><b>ньне, прыйм</b><i>о</i><b>.</b>"
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>лац.</i> <b>паслух</b><i>а</i><b>ньне, прыйм</b><i>о</i><b>.</b>",
+    "modern": "АУДИЕНЦИЯ"
   },
   {
     "headword": "АФИША",
