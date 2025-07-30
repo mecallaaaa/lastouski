@@ -32,53 +32,70 @@
     const entriesEl = document.getElementById('entries');
     let currentEntries = [];
     
+    // Build letter buttons
     letters.forEach(letter => {
       const btn = document.createElement('button');
       btn.textContent = letter;
-      btn.onclick = () => loadLetter(letter);
+      btn.addEventListener('click', () => loadLetter(letter));
       nav.appendChild(btn);
     });
 
+    // Load JSON data for selected letter
     function loadLetter(letter) {
-      nav.querySelectorAll('button').forEach(b=>b.classList.toggle('active', b.textContent===letter));
-      searchBox.value='';
+      nav.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.textContent === letter));
+      searchBox.value = '';
       fetch(fileMap[letter])
-        .then(res=>res.json())
-        .then(data=>{
+        .then(res => res.json())
+        .then(data => {
           currentEntries = data;
           renderEntries(data);
         })
-        .catch(()=>{ entriesEl.innerHTML = `<p>Не ўдалося загрузіць дадзеныя для літары ${letter}.</p>`; });
+        .catch(() => {
+          entriesEl.innerHTML = `<p>Не ўдалося загрузіць дадзеныя для літары ${letter}.</p>`;
+        });
     }
 
+    // Render list of entries
     function renderEntries(list) {
-      entriesEl.innerHTML='';
-      if(list.length===0){ entriesEl.innerHTML='<p>Няма запісаў.</p>'; return; }
-      list.forEach(e=>{
-        const div = document.createElement('div'); div.className='entry';
-        let head = document.createElement('span'); head.className='headword'; head.textContent=e.headword;
-        if(e.modern && e.modern.toLowerCase()!==e.headword.toLowerCase()){
-          const mod = document.createElement('span'); mod.className='modern'; mod.textContent=`(${e.modern.toLowerCase()})`;
-          head.appendChild(mod);
+      entriesEl.innerHTML = '';
+      if (list.length === 0) {
+        entriesEl.innerHTML = '<p>Няма запісаў.</p>';
+        return;
+      }
+      list.forEach(e => {
+        const div = document.createElement('div'); div.className = 'entry';
+        // Headword with optional modern spelling
+        const head = document.createElement('span'); head.className = 'headword'; head.textContent = e.headword;
+        if (e.modern && e.modern.toLowerCase() !== e.headword.toLowerCase()) {
+          const modSpan = document.createElement('span');
+          modSpan.className = 'modern';
+          modSpan.textContent = `(${e.modern.toLowerCase()})`;
+          head.appendChild(modSpan);
         }
-        const def = document.createElement('div'); def.className='definition'; def.innerHTML=e.definition;
-        div.appendChild(head); div.appendChild(def);
+        // Definition
+        const def = document.createElement('div'); def.className = 'definition'; def.innerHTML = e.definition;
+        div.appendChild(head);
+        div.appendChild(def);
         entriesEl.appendChild(div);
       });
     }
 
-    searchBox.addEventListener('input', ()=>{
-      const q=searchBox.value.toLowerCase();
-      if(!q) return renderEntries(currentEntries);
-      const filtered=currentEntries.filter(e=>
+    // Search filter
+    searchBox.addEventListener('input', () => {
+      const q = searchBox.value.toLowerCase().trim();
+      if (!q) {
+        renderEntries(currentEntries);
+        return;
+      }
+      const filtered = currentEntries.filter(e =>
         e.headword.toLowerCase().includes(q) ||
         (e.modern && e.modern.toLowerCase().includes(q)) ||
-        e.definition.toLowerCase().replace(/<[^>]*>/g,'').includes(q)
+        e.definition.replace(/<[^>]*>/g, '').toLowerCase().includes(q)
       );
       renderEntries(filtered);
     });
 
-    // Initialize
+    // Initialize with letter A
     loadLetter('А');
   </script>
 </body>
