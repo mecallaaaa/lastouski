@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Слоўнік Ластоўскага (1924)</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; }
+    header { background: #333; color: #fff; padding: 1rem; text-align: center; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; background: #eee; padding: 0.5rem; }
+    nav button { margin: 0.2rem; padding: 0.4rem 0.8rem; border: none; background: #fff; cursor: pointer; border-radius: 4px; }
+    nav button.active, nav button:hover { background: #ddd; }
+    #searchBox { display: block; width: 90%; max-width: 400px; margin: 1rem auto; padding: 0.6rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    main { padding: 1rem; max-width: 800px; margin: auto; }
+    .entry { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #ccc; }
+    .headword { font-weight: bold; font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <header><h1>Слоўнік Ластоўскага (1924)</h1></header>
+  <nav id="letterNav"></nav>
+  <input type="text" id="searchBox" placeholder="Пошук па словах...">
+  <main id="entries"></main>
+
+  <script>
+    const letters = ["А","Б","В","Г","Д","Е","Ж"];
+    const fileMap = { А: 'A.json', Б: 'B.json', В: 'V.json', Г: 'G.json', Д: 'D.json', Е: 'E.json', Ж: 'Zh.json' };
+    const nav = document.getElementById('letterNav');
+    const entriesContainer = document.getElementById('entries');
+    const searchBox = document.getElementById('searchBox');
+    let currentEntries = [];
+
+    // Build navigation
+    letters.forEach(letter => {
+      const btn = document.createElement('button');
+      btn.textContent = letter;
+      btn.onclick = () => loadLetter(letter);
+      nav.appendChild(btn);
+    });
+
+    // Load entries for a given letter
+    function loadLetter(letter) {
+      // highlight
+      nav.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.textContent === letter));
+      searchBox.value = '';
+      fetch(fileMap[letter])
+        .then(res => res.json())
+        .then(data => {
+          currentEntries = data;
+          displayEntries(data);
+        })
+        .catch(err => {
+          entriesContainer.innerHTML = '<p>Не ўдалося загрузіць дадзеныя для літары ' + letter + '.</p>';
+        });
+    }
+
+    // Display a list of entries
+    function displayEntries(list) {
+      entriesContainer.innerHTML = '';
+      if (!list.length) {
+        entriesContainer.innerHTML = '<p>Няма запісаў.</p>';
+        return;
+      }
+      list.forEach(e => {
+        const div = document.createElement('div');
+        div.className = 'entry';
+        div.innerHTML = `<div class="headword">${e.headword}</div><div class="definition">${e.definition}</div>`;
+        entriesContainer.appendChild(div);
+      });
+    }
+
+    // Search filtering
+    searchBox.addEventListener('input', () => {
+      const q = searchBox.value.trim().toLowerCase();
+      if (!q) {
+        displayEntries(currentEntries);
+      } else {
+        const filtered = currentEntries.filter(e =>
+          e.headword.toLowerCase().includes(q) ||
+          e.definition.toLowerCase().includes(q)
+        );
+        displayEntries(filtered);
+      }
+    });
+
+    // Initialize with A
+    loadLetter('А');
+  </script>
+</body>
+</html>
