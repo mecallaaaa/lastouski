@@ -304,8 +304,8 @@
     "modern": "АЛЮМИНИЙ"
   },
   {
-    "headword": "АЛЯПОВАТЫЙ, нехлам",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span><i>я</i><b>жы.</b>"
+    "headword": "АЛЯПОВАТЫЙ",
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> нехлам<i>я</i><b>жы.</b>"
   },
   {
     "headword": "АМАЛЬГАМА",
@@ -456,9 +456,9 @@
     "modern": "АПОПЛЕКСИЯ"
   },
   {
-    "headword": "А ПО СЕМУ, адлі.",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> Адлі я і зрабіў так.",
-    "modern": "А ПО СЕМУ, адли."
+    "headword": "А ПО СЕМУ",
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> адлі. Адлі я і зрабіў так.",
+    "modern": "А ПО СЕМУ"
   },
   {
     "headword": "АПРѢЛЬ,",
@@ -546,8 +546,8 @@
     "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> <i>м. франц.</i> будынак дзе перахоўвуецца зброя і вайсковыя прыналежнасьці; <b>збр</b><i>о</i><b>йня.</b>"
   },
   {
-    "headword": "АРТАЧИТЬСЯ, д",
-    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span><i>ы</i><b>біцца, ўзд</b><i>ы</i><b>біцца,</b> на дыбы стануць, пайсьці. <b>Аськірз</b><i>а</i><b>цца.</b> <i>Набяры вады ў губу, то і будзеш маўчаць, не станеш <span style=\"letter-spacing: .15em;\">аськірзацца</span> з мужам. (Сержпут.).</i>"
+    "headword": "АРТАЧИТЬСЯ",
+    "definition": "<span style=\"visibility:hidden; margin-left:1em\"></span> д<i>ы</i><b>біцца, ўзд</b><i>ы</i><b>біцца,</b> на дыбы стануць, пайсьці. <b>Аськірз</b><i>а</i><b>цца.</b> <i>Набяры вады ў губу, то і будзеш маўчаць, не станеш <span style=\"letter-spacing: .15em;\">аськірзацца</span> з мужам. (Сержпут.).</i>"
   },
   {
     "headword": "АРТЕЛЬ",
