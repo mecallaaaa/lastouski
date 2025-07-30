@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+<meta charset="utf-8">
+<title>Letter Э - Lastouski Dictionary</title>
+<script src="search.js"></script>
+<style>
+body { font-family: sans-serif; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a></nav>
+<h1>Letter Э</h1>
+<div>
+<input type="text" id="search" placeholder="Search..." oninput="search()">
+<div id="results"></div>
+</div>
+<ul><li><strong>ЭВОЛЮЦИЯ</strong> — ж. франц. рух, перам е ны.</li>
+<li><strong>ЭГОИЗМ</strong> — м. лац. саб е тніцтва, саб е тнік, саб е тлівасьць.</li>
+<li><strong>ЭДЕМ</strong> — м. рай.</li>
+<li><strong>ЭКВАТОР</strong> — м. лац. роўнадз е ннік; ір э й.</li>
+<li><strong>ЭКЗАМЕН</strong> — м. лац. в ы спыт.</li>
+<li><strong>ЭКЗЕМПЛЯР</strong> — м. лац. адн е ц.</li>
+<li><strong>ЭКИПАЖ</strong> — м. франц. пав о зка.</li>
+<li><strong>ЭКОНОМ</strong> — м. — МКА ж. акан о м, акан о мка; кл ю чнік — ніца.</li>
+<li><strong>ЭКРАН</strong> — м. франц. засл о на.</li>
+<li><strong>ЭКСКУРСИЯ</strong> — ж. лац. выпр а ва.</li>
+<li><strong>ЭКСПЕДИЦИЯ</strong> — ж. лац. в ы сылка, пас ы лка.</li>
+<li><strong>ЭКСПЕРИМЕНТ</strong> — м. лац. спр о ба.</li>
+<li><strong>ЭКСПЕРТ</strong> — м. віж; знав е ц.</li>
+<li><strong>ЭКСПОНЕНТ</strong> — м. лац. учасьнік выстаўкі.</li>
+<li><strong>ЭКСПЛОАТАЦИЯ</strong> — ж. франц. в ы зыск.</li>
+<li><strong>ЭКСПРОМТ</strong> — м. лац. зьн е чавень.</li>
+<li><strong>ЭКСПРОПРИАЦИЯ</strong> — м. лац. заб о р.</li>
+<li><strong>ЭКСТЕРН</strong> — м. лац. вольнав у к.</li>
+<li><strong>ЭКСТРАКТ</strong> — м. лац. в ы цяг.</li>
+<li><strong>ЭКСТРЕННЫЙ</strong> — лац. неўчар о дны.</li>
+<li><strong>ЭКСЦЕНТРИЧЕСКИЙ</strong> — лац. зьнесяр о длівы, зьнесяр о днік.</li>
+<li><strong>ЭКС</strong> — лац. б ы ўшы.</li>
+<li><strong>ЭЛЕГИЯ</strong> — ж. жаласьп е ў, прычыт а ньне.</li>
+<li><strong>ЭЛЕКТОРАЛЬНЫЙ</strong> — лац. в ы барны.</li>
+<li><strong>ЭЛИКСИР</strong> — м. апт. элікс і р.</li>
+<li><strong>ЭЛИПС</strong> — м. даўгакр у г.</li>
+<li><strong>ЭМАЛЬ</strong> — м. пал і ва.</li>
+<li><strong>ЭМАНСИПАТИЯ</strong> — лацін. вызвал е ньне.</li>
+<li><strong>ЭМБЛЕМА</strong> — грэцк. п о мень, п о мяна.</li>
+<li><strong>ЭМИГРАНТ</strong> — франц. высял е нец.</li>
+<li><strong>ЭНЕРГИЯ</strong> — ж. с і ла.</li>
+<li><strong>ЭНТУЗИАЗМ</strong> — м. франц. з а хват.</li>
+<li><strong>ЭНЦИКЛОПЕДИЯ</strong> — ж. грэцк. энцыклоп э дзія.</li>
+<li><strong>ЭПИГРАММА</strong> — ж. грэцк. карсткі верш з пахвальным або ушчыплівым сказам.</li>
+<li><strong>ЭПИДЕМИЯ</strong> — ж. грэцк. п о шасьць.</li>
+<li><strong>ЭПИЛЕПСИЯ</strong> — ж. грэцк. падав і ца, пад у чка, с у тарга.</li>
+<li><strong>ЭПИСТОЛА</strong> — лац. пісьм о.</li>
+<li><strong>ЭПИТАФИЯ</strong> — ж. грэцк. нагробная надпісь.</li>
+<li><strong>ЭПОЛЕТ</strong> — м. франц. нар а мнік.</li>
+<li><strong>ЭПОС</strong> — м. грэцк. был і на.</li>
+<li><strong>ЭПОХА</strong> — ж. грэцк. дзеяч а с.</li>
+<li><strong>ЭРА</strong> — ж. дзеяст а нь.</li>
+<li><strong>ЭРМИТАЖ</strong> — м. франц. кл е ць.</li>
+<li><strong>ЭСЕНЦИЯ</strong> — лац. в ы цяг.</li>
+<li><strong>ЭСКИЗ</strong> — м. н а рыс.</li>
+<li><strong>ЭСКОРТ</strong> — франц. пр о вад.</li>
+<li><strong>ЭСКУЛАП</strong> — м. грэцк. л е кар.</li>
+<li><strong>ЭСТАФЕТ</strong> — італ. ган е ц.</li>
+<li><strong>ЭСТЕТИКА</strong> — грэцк. эст э тыка.</li>
+<li><strong>ЭСТРАДА</strong> — італьян. эстр а да.</li>
+<li><strong>ЭТАЖ</strong> — м. франц. пав е рх.</li>
+<li><strong>ЭТАП</strong> — м. франц. прыст а нак.</li>
+<li><strong>ЭТИКЕТ</strong> — м. франц. пар а дак.</li>
+<li><strong>ЭТИМОЛОГИЯ</strong> — грэцк. словатв о рства.</li>
+<li><strong>ЭТНОГРАФИЯ</strong> — ж. грэцк. народав е даньне.</li>
+<li><strong>ЭТЮДЫ</strong> — франц. н а рысы.</li>
+<li><strong>ЭФЕКТ</strong> — м. франц. ўр а жаньне, ўраж а ючы.</li>
+<li><strong>ЭХО</strong> — ср. грэцк. э ха, р э ха; г о лс, галсч э ць.</li>
+<li><strong>ЭШАФОТ</strong> — м. франц. ш ы беніца.</li>
+<li><strong>ЭШЕЛОН</strong> — м. франц. камп а нія.</li>
+<li><strong>ЭФИР</strong> — м. грэцк. эт э р, этэр ы чны.</li></ul>
+</body>
+</html>
